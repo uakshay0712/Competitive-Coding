@@ -58,6 +58,7 @@ public class BankAccount {
 		System.out.println("Balance: "+"Rs."+ba.getAccountBalance());
 		
 		ba.deposite(500);
+		System.out.println("Available Balance"+ba.getAccountBalance());
 		
 		ba.withdraw(1800.00);
 		System.out.print("Balance Amount: ");

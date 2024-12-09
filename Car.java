@@ -58,7 +58,7 @@ public class Car {
 		System.out.println(car.getCompany_Name());
 		System.out.println(car.getModel_Name());
 		System.out.println(car.getYear());
-		System.out.println(car.getMilage());
+		System.out.println("Milage: "+car.getMilage());
 		car.setCompany_Name("Hyundai");
 		car.setModel_Name("i20");
 		car.setYear(2024);
